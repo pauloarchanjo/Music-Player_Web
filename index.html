@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" href="assets/icon/music.svg">
-
+  
   <title>Music Player</title>
-
 </head>
+
 <body>
   <div class="wrapper">
     <div class="top-bar">
@@ -17,13 +18,16 @@
       <span>Tocando</span>
       <i class="material-icons">more_horiz</i>
     </div>
+
     <div class="img-area">
       <img src="" alt="">
     </div>
+
     <div class="song-details">
       <p class="name"></p>
       <p class="artist"></p>
     </div>
+      
     <div class="progress-area">
       <div class="progress-bar">
         <audio id="main-audio" src=""></audio>
@@ -33,6 +37,7 @@
         <span class="max-duration">0:00</span>
       </div>
     </div>
+
     <div class="controls">
       <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
       <i id="prev" class="material-icons">skip_previous</i>
@@ -42,22 +47,21 @@
       <i id="next" class="material-icons">skip_next</i>
       <i id="more-music" class="material-icons">queue_music</i>
     </div>
+
     <div class="music-list">
       <div class="header">
         <div class="row">
-          <i class= "list material-icons">queue_music</i>
+          <i class="list material-icons">queue_music</i>
           <span>Lista</span>
         </div>
         <i id="close" class="material-icons">close</i>
       </div>
-      <ul>
-
-      </ul>
+      <ul></ul>
     </div>
   </div>
 
   <script src="assets/js/music-list.js"></script>
   <script src="assets/js/script.js"></script>
-
+  <!--<script src="assets/js/color-thief.min.js"></script>-->
 </body>
 </html>
