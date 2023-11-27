@@ -1,4 +1,4 @@
 # Music-Player_Web
-Reprodutor de Música feito com a Tríade Web (HTML, CSS e JavaScript).
+Music Player made with the Web Triad (HTML, CSS and JavaScript).
 
 ![Screenshot](frontpage.png)
